@@ -2,7 +2,7 @@
 <!-- Add a title, description, and badges if needed -->
 # ParseMark.js
 
-A lightweight JavaScript library for parsing Markdown content with YAML front matter.
+A lightweight JavaScript library for parsing Markdown metadata and content separatly
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
@@ -11,7 +11,7 @@ A lightweight JavaScript library for parsing Markdown content with YAML front ma
 ### Using npm
 
 ```bash
-npm install parsemark
+npm install parsemarkjs
 ```
 
 ### Using CDN

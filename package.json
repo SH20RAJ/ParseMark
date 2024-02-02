@@ -1,0 +1,25 @@
+{
+  "name": "parsemarkjs",
+  "version": "1.0.0",
+  "description": "A lightweight JavaScript library for parsing Markdown metadata and content separatly",
+  "main": "ParseMark",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SH20RAJ/ParseMark.git"
+  },
+  "keywords": [
+    "markdown",
+    "ParseMark",
+    "sh20raj",
+    "JavaScript"
+  ],
+  "author": "SH20RAJ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SH20RAJ/ParseMark/issues"
+  },
+  "homepage": "https://github.com/SH20RAJ/ParseMark#readme"
+}
