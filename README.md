@@ -1,65 +1,81 @@
-# ParseMark
 
-# Markdown Utils Library
+<!-- Add a title, description, and badges if needed -->
+# ParseMark.js
 
-A JavaScript library for extracting metadata and content separately from Markdown text.
+A lightweight JavaScript library for parsing Markdown content with YAML front matter.
 
-## Introduction
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-This library provides utility methods to parse and extract metadata and content from Markdown files. It's suitable for scenarios where you need to separate the front matter (metadata) and the content of a Markdown document.
+## Installation
 
-## Features
+Install the library using npm:
 
-- Extracts metadata and content separately.
-- Parses metadata from front matter.
-- Extracts the front matter (metadata) as a string.
-- Extracts content (Markdown body) from the Markdown text.
+```bash
+npm install parsemark
+```
 
 ## Usage
 
-### Installation
-
-Include the `markdown-utils.js` file in your project.
-
-### Example
+### Constructor
 
 ```javascript
-// Example usage:
-const markdownText = `
+const ParseMark = require('parsemark');
+
+const markdown = `
 ---
 title: "Sample Post"
-date: "2024-02-01"
-tags: javascript, markdown
+tags: javascript, library, markdown
+datePublished: Fri, 04 Feb 2024 12:00:00 GMT
 ---
 
 # Sample Post
 
-This is a sample Markdown post.
+This is a sample post content.
 `;
 
-const result = MarkdownUtils.extractMetadataAndContent(markdownText);
-console.log('Metadata:', result.metadata);
-console.log('Content:', result.content);
+const parser = new ParseMark(markdown);
 ```
 
-### Methods
+### getMetadata()
 
-#### `extractMetadataAndContent(markdown)`
+```javascript
+const metadata = parser.getMetadata();
+console.log('Metadata:', metadata);
+```
 
-Extracts metadata and content separately from Markdown text.
+### getRawMetadata()
 
-#### `extractFrontMatter(markdown)`
+```javascript
+const rawMetadata = parser.getRawMetadata();
+console.log('Raw Metadata:', rawMetadata);
+```
 
-Extracts the front matter (metadata) as a string.
+### getContent()
 
-#### `parseMetadata(frontMatter)`
+```javascript
+const content = parser.getContent();
+console.log('Content:', content);
+```
 
-Parses metadata from the front matter string.
+#### Example Output
 
-#### `extractContent(markdown)`
+For the provided markdown:
 
-Extracts content (Markdown body) from the Markdown text.
+```markdown
+# Sample Post
+
+This is a sample post content.
+```
+
+The output of `getContent()` will be:
+
+```
+Content: # Sample Post
+
+This is a sample post content.
+```
 
 ## License
 
-This library is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
