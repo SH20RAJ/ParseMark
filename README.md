@@ -8,10 +8,18 @@ A lightweight JavaScript library for parsing Markdown content with YAML front ma
 
 ## Installation
 
-Install the library using npm:
+### Using npm
 
 ```bash
 npm install parsemark
+```
+
+### Using CDN
+
+Include the following script tag in your HTML file:
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/SH20RAJ/ParseMark@main/ParseMark.js"></script>
 ```
 
 ## Usage
@@ -59,21 +67,8 @@ console.log('Content:', content);
 
 #### Example Output
 
-For the provided markdown:
+<img width="577" alt="Screenshot 2024-02-02 at 3 14 25 PM" src="https://github.com/SH20RAJ/ParseMark/assets/66713844/d1b845b1-2ae7-4d07-89ad-b60006e22165">
 
-```markdown
-# Sample Post
-
-This is a sample post content.
-```
-
-The output of `getContent()` will be:
-
-```
-Content: # Sample Post
-
-This is a sample post content.
-```
 
 ## License
 
