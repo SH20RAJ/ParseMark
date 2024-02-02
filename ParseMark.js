@@ -41,23 +41,3 @@ class ParseMark {
         return this.content;
     }
 }
-
-// Example usage
-const markdown = `---
-title: "Sample Post"
-tags: javascript, library, markdown
-datePublished: Fri, 04 Feb 2024 12:00:00 GMT
----
-
-# Sample Post
-
-This is a sample post content.`;
-
-const parser = new ParseMark(markdown);
-const metadata = parser.getMetadata();
-const rawMetadata = parser.getRawMetadata();
-const content = parser.getContent();
-
-console.log('Metadata:', metadata);
-console.log('Raw Metadata:', rawMetadata);
-console.log('Content:', content);
