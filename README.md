@@ -27,8 +27,6 @@ Include the following script tag in your HTML file:
 ### Constructor
 
 ```javascript
-const ParseMark = require('parsemark');
-
 const markdown = `
 ---
 title: "Sample Post"
