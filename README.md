@@ -2,6 +2,9 @@
 
 A lightweight JavaScript library for parsing Markdown metadata and content separately
 
+
+ [Documentation](https://dev.to/sh20raj/parsemarkjs-a-lightweight-javascript-library-for-parsing-markdown-metadata-and-content-separately-1o6j) 
+
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Installation
@@ -13,7 +16,6 @@ npm install parsemarkjs
 ```
 
 ### Using CDN
- [Documentation](https://dev.to/sh20raj/parsemarkjs-a-lightweight-javascript-library-for-parsing-markdown-metadata-and-content-separately-1o6j) 
 Include the following script tag in your HTML file:
 
 ```html
