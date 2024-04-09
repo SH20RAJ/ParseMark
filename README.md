@@ -6,6 +6,9 @@ A lightweight JavaScript library for parsing Markdown metadata and content separ
  [Documentation](https://dev.to/sh20raj/parsemarkjs-a-lightweight-javascript-library-for-parsing-markdown-metadata-and-content-separately-1o6j) 
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![npm version](https://badge.fury.io/js/parsemarkjs.svg)](https://badge.fury.io/js/parsemarkjs)
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FSH20RAJ%2FParseMark%2F&labelColor=%232ccce4&countColor=%23f47373&style=flat)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FSH20RAJ%2FParseMark%2F)
+
 
 ## Installation
 
