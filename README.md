@@ -14,6 +14,12 @@ A lightweight JavaScript library for parsing Markdown metadata and content separ
 ```bash
 npm install parsemarkjs
 ```
+Import
+
+```js
+// import ParseMark from './ParseMark.module.js'; // if you have downloaded the js file
+import ParseMark from 'parsemarkjs';
+```
 
 ### Using CDN
 Include the following script tag in your HTML file:

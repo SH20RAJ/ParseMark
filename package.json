@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "A lightweight JavaScript library for parsing Markdown metadata and content separatly",
   "main": "ParseMark.module.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
